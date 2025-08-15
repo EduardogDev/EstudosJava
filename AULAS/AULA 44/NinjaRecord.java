@@ -1,4 +1,8 @@
-package PACKAGE_NAME;
+import java.util.Locale;
 
-public record NinjaRecord() {
+public record NinjaRecord(String nome, String email, int telefone) {
+
+    public String emailCaixaAlta(){
+        return email.toUpperCase();
+    }
 }

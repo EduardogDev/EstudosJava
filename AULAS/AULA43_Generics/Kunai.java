@@ -1,12 +1,14 @@
-public class CompanheiroNinja {
+public class Kunai {
     private String nome;
 
-    public CompanheiroNinja(){
-
+    public Kunai(){
     }
-    public CompanheiroNinja(String nome) {
+    public Kunai(String nome) {
         this.nome = nome;
     }
+
+    //
+
 
     public String getNome() {
         return nome;
@@ -18,6 +20,6 @@ public class CompanheiroNinja {
 
     @Override
     public String toString(){
-        return "Companheiro: " + nome;
+        return "kunai: " + nome;
     }
 }
